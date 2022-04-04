@@ -1,0 +1,55 @@
+.boxlink a {
+    text-decoration: none;
+    font-family: Helvetica;
+    color: black;
+
+}
+
+.boxContent {
+ display: flex;
+}
+
+.boxlink {
+    background-color: #777;
+    align-items: center;
+    display: flex;
+    padding: 20px 35px;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 80px;
+    align-items: center;
+   gap: 20px;
+}
+
+.boxlink:hover {
+    background-color: beige;
+}
+
+/* **************************** */
+
+.box-perfil {
+    background-color: #444;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.box-perfil ul {
+ list-style: none;
+}
+
+
+.box-perfil h1 {
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+.perfil-img img {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
